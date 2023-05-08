@@ -1,0 +1,128 @@
+html{
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+
+   body {
+    text-align: center;
+    margin:0;
+    scroll-behavior: smooth;
+   }
+
+   
+   
+#typewriter {
+    color: #000;
+        
+    overflow: hidden; 
+   
+    
+    font-size:7vh; 
+    margin: 20vh auto 10vh; 
+    letter-spacing: .15em; 
+    max-width:fit-content;
+    
+  }
+.span{
+    font-size: 6.5vh;
+    color:orange;
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+ #slide{
+    margin-bottom: 10vh;
+    animation: slideUp 9s ease-in-out;
+}
+@keyframes slideUp {
+	0% {
+		opacity: 0;
+		transform: translateY(300px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+#hori {
+  width: 20%;
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: grey;
+  margin-left: 40vw;
+}
+
+.aboutme{
+  height: 100vh;
+  
+  color:#000;
+  margin:0
+}
+#about{
+  margin-top: 15vh;
+  
+}
+
+
+.paraa-headerss{
+  margin-top: 7vh;
+  font-family: 'Caveat', cursive;
+}
+
+.git:hover{
+  color:white
+}
+.git{
+  color:#000
+}
+
+
+#aboutmes{
+  text-align: center;
+  
+}
+
+#para-text{
+  width:30vw;
+  text-align: center;
+  justify-content:center ;
+  margin:10vh auto
+}
+
+
+.customi{
+  max-width: 20vw;
+  justify-content: space-between;
+  margin:auto
+}
+
+.axax{
+  background-color: rgb(255, 255, 255);
+}
+
+#skills{
+  text-align: center;
+  justify-content:center;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+
+.some{
+  margin-left: 5vw;
+  
+}
+
+.somes{
+  padding:10vh
+}
