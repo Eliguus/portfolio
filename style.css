@@ -8,7 +8,7 @@ html{
     text-align: center;
     margin:0;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
    }
 
    
@@ -126,4 +126,13 @@ html{
 
 .somes{
   padding:10vh
+}
+
+
+#projects{
+  margin:25vh 0
+}
+
+.resume:hover{
+  color:white;
 }
